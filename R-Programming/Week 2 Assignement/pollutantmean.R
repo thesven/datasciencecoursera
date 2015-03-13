@@ -5,7 +5,7 @@ pollutantmean <-function(directory, pollutant, id =1:332) {
 	#create a vector to hold our data
 	pollutant_means = c();
 	
-	#get a list of all the files in our working directory
+	#get a list of all the files in the supplied directory
 	files = list.files(directory, pattern="*.csv", full.names=TRUE);
 	
 	#loop over the required files and calculate the pollutant mean
@@ -23,7 +23,7 @@ pollutantmean <-function(directory, pollutant, id =1:332) {
 	return(round(mean(pollutant_means), 3))
 }
 
-##File Tests
+#Output Test
 #print(pollutantmean("specdata", "sulfate", 1:10))
 #print(pollutantmean("specdata", "nitrate", 70:72))
 #print(pollutantmean("specdata", "nitrate", 23))
