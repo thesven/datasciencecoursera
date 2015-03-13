@@ -1,10 +1,10 @@
 #set the working directory
-setwd("/Volumes/StorageLocker/Coursera/Data Science/datasciencecoursera/R-Programming/Week 2 Assignement");
+#setwd("/Volumes/StorageLocker/Coursera/Data Science/datasciencecoursera/R-Programming/Week 2 Assignement");
 
 complete <- function(directory, id=1:332){
 	
 	#get a list of all the fies in the supplied directory
-	files = list.files(directory, pattern="*.csv", full.names=TRUE);
+	files <- list.files(directory, pattern="*.csv", full.names=TRUE);
 	
 	#create an empty vector for holding values
 	cases <- vector();
