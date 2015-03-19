@@ -1,0 +1,135 @@
+cube <- function(x, n){x^3}
+cube(3)
+x<-1:10
+if(x>5) {x <- 0}
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+z <- 10
+f(3)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+source("pollutantmean.R")
+polutantmean("specdata, "sulfate")
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:332)
+source("pollutantmean.R")
+source("pollutantmean.R")
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:332)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:332)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:332)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:1)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:1)
+mean
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:1)
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "nitrate", 70:72)
+source("pollutantmean.R")
+pollutantmean("specdata", "nitrate", 70:72)
+read.csv
+help(read.csv)
+source("pollutantmean.R")
+pollutantmean("specdata", "nitrate", 70:72)
+source("pollutantmean.R")
+pollutantmean("specdata", "nitrate", 70:72)
+source("pollutantmean.R")
+pollutantmean("specdata", "nitrate", 70:72)
+pollutantmean("specdata", "sulphate", 1:10)
+pollutantmean("specdata", "sulfate", 1:10)
+pollutantmean("specdata", "sulfate", 1)
+pollutantmean("specdata", "sulfate", 1)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+pollutantmean("specdata", "sulfate", 1:10)
+source("pollutantmean.R")
+source("pollutantmean.R")
+help(rep)
+source("complete.R")#
+complete("specdata", 1)
+source("complete.R")#
+complete("specdata", 1)
+source("complete.R")#
+complete("specdata", 1)
+source("complete.R")#
+complete("specdata", 1)
+source("complete.R")#
+complete("specdata", 1)
+help(na.omit)
+source("complete.R")#
+complete("specdata", 1)
+source("complete.R")#
+complete("specdata", 1)
+source("complete.R")
+source("complete.R")
+source("corr.R")
+cr <- corr("specdata", 150)
+source("corr.R")
+cr <- corr("specdata", 150)
+source("corr.R")
+cr <- corr("specdata", 150)
+source("corr.R")
+cr <- corr("specdata", 150)
+source("corr.R")#
+source("complete.R")#
+cr <- corr("specdata", 150)#
+head(cr)
+source("corr.R")#
+source("complete.R")#
+cr <- corr("specdata", 150)#
+head(cr)
+cr <- corr("specdata", 400)#
+head(cr)
+summary(cr)
+cr <- corr("specdata", 5000)#
+summary(cr)
+cr <- corr("specdata")#
+summary(cr)
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
+source("submission.R")
