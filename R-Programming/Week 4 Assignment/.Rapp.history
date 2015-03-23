@@ -1,0 +1,74 @@
+cube <- function(x, n){x^3}
+cube(3)
+x<-1:10
+if(x>5) {x <- 0}
+f <- function(x) {#
+        g <- function(y) {#
+                y + z#
+        }#
+        z <- 4#
+        x + g(x)#
+}
+z <- 10
+f(3)
+x <- 5#
+y <- if(x < 3) {#
+        NA#
+} else {#
+        10#
+}
+y
+library(datasets)
+data(iris)
+?iris
+iris
+mean(iris[,Sepal.Length])
+mean(iris$Sepal.Length])
+mean(iris$Sepal.Length)
+virginica <- subset('Species' = 'virginica')
+virginica <- subset(Species = virginica)
+virginica <- subset(Species = "virginica")
+virginica <- subset(Species == "virginica")
+virginica <- subset(iris, Species == "virginica")
+virginica
+mean(virginica$Species)
+mean(virginica$Sepal.Length)
+apply(iris[, 1:4], 1, mean)
+apply(iris, 1, mean)
+apply(iris[, 1:4], 2, mean)
+library(datasets)
+data(mtcars)
+mtcars
+tapply(mtcars$mpg, mtcars$cyl, mean)
+help(tapply)
+help(abs)
+four <- subset(iris, cyl=4)
+four
+four <- subset(mtcars, cyl=4)
+four
+four <- subset(iris, cyl==4)
+four <- subset(mtcars, cyl==4)
+four
+eight <- subset(mtcars, cyl==8)
+eight
+fourmean <- mean(four$hp)
+forumean
+fourmean
+help(mean)
+eightmean <- mean(eight$hp)
+eight
+abs(fourmean - eightmean)
+help(debug)
+debug(ls)
+ls
+debug(ls)
+abs(fourmean - eightmean)
+outcome <- read.csv("rprog-data-ProgAssignment3-data/outcome-of-care-measures.csv", colClasses ="character")
+head(outcome)
+outcome[,11] <- as.numeric(ourcome[,11])
+hist(outcome[,11])
+outcome[,11] <- as.numeric(outcome[,11])
+hist(outcome[,11])
+outcome <- read.csv("rprog-data-ProgAssignment3-data/outcome-of-care-measures.csv", colClasses ="character")
+outcome
+help(stop)
