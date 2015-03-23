@@ -1,5 +1,5 @@
 #set the working directory
-setwd("/Volumes/StorageLocker/Coursera/Data Science/datasciencecoursera/R-Programming/Week 4 Assignment");
+#setwd("/Volumes/StorageLocker/Coursera/Data Science/datasciencecoursera/R-Programming/Week 4 Assignment");
 
 findLowest <- function(outcome, data){
 	validOutcomes <- c("heart attack", "heart failure", "pneumonia");
